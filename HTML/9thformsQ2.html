@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <thead>
+        <th><b>Job Application</b></th>
+        <br/>
+        <br/>
+    </thead>
+    <body>
+        <label for="name">Name:</label>
+        <br/>
+        <input type="text" id="name">
+        <br/>
+        <label for="email">Email:</label>
+        <br/>
+        <input type="text" id="email">
+        <br/>
+        <label for="Phone">Phone:</label>
+        <br/>
+        <input type="text" id="Phone">
+        <br/>
+        <label for="resume">Resume:</label>
+        <br/>
+        <input type="file" name="choose file" id="resume">
+        <br/>
+        <label for="exp">Experience(years):</label>
+        <br/>
+        <input type="text" id="exp" required maxlength="2" size="1">
+        <br/>
+        <input type="number" name="exp" id="exp" min="0" max="10" size="1">
+        <br/>
+        <fieldset>
+            <legend>Skills</legend>
+            <input type="checkbox" id="html">
+            <br/>
+            <label for="html">HTML</label>
+            <br/>
+            <input type="checkbox" id="css">
+            <br/>
+            <label for="css">CSS</label>
+            <br/>
+            <input type="checkbox" id="js">
+            <br/>
+            <label for="js">Javascript</label>
+        </fieldset>
+        <label for="edu">Highest Education:</label>
+        <br/>
+        <select name="others" id="edu">
+            <option value="hs">Highschool</option>
+            <option value="gr">Graduate</option>
+            <option value="nt">Nalla</option>
+        </select>
+        <br/>
+        <label >Availability:</label>
+        <br/>
+        <input type="checkbox" id="ft">
+        <br/>
+        <label for="ft">Full-time</label>
+        <br/>
+        <input type="checkbox" id="pt">
+        <br/>
+        <label for="pt">Part-time</label>
+        <br/><br/>
+        <label for="comment">Additional comments:</label>
+        <br/>
+        <textarea name="comment" id="comment" cols="50" rows="5"></textarea>
+        <br/>
+        <button>Submit application</button>
+        
+    </body>
+</html>
